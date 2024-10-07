@@ -7,7 +7,7 @@ public class BallScript : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float flapForce = 10f;
-    public bool isBallDead = false;
+    private bool isBallDead = false;
     public GameObject gameOverScreen;
     // Start is called before the first frame update
     void Start()
